@@ -1,24 +1,26 @@
 .container {
     width: 100%;
-    height: 100%;
+    height: 1000px;
     margin: 0px;
     padding: 0px;
 }
 
-#logo {
-    padding-left: 0px;
-    margin-left: 0px;
-    padding-right: 700px;
-    padding-bottom: 10px;
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+background-image {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .navbar {
     height: 60%;
-    width: 100%;
+    width: 1200px;
 }
 
 .header {
-    background-color: grey;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
@@ -27,45 +29,33 @@
 
 ul li {
     display: inline-block;
+    padding-right: 40px;
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+    color: white;
 }
 
 .box1 {
-    background-color: aqua;
     float: left;
-    width: 20%;
+    width: 400px;
     height: 500px;
+    padding-bottom: 25px;
+    margin-bottom: auto;
 }
 
 .box2 {
-    background-color: teal;
     float: left;
-    width: 20%;
+    width: 400px;
     height: 450px;
     margin-top: 50px;
 }
 
 .box3 {
-    background-color: aquamarine;
     float: left;
-    width: 20%;
+    width: 400px;
     height: 400px;
     margin-top: 100px;
-}
-
-.box4 {
-    background-color: beige;
-    float: left;
-    width: 20%;
-    height: 350px;
-    margin-top: 150px;
-}
-
-.box5 {
-    background-color: purple;
-    float: right;
-    width: 20%;
-    height: 300px;
-    margin-top: 200px;
 }
 
 .section {
@@ -73,64 +63,82 @@ ul li {
     width: 100%;
 }
 
+.backgroundimage {
+    background-image: url("girlinclass.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.backgroundimage h1 {
+    font-family: helvetica;
+    color: aliceblue;
+}
+
 .row {
-    height: 800px;
+    /*    height:800px;*/
     width: 100%;
 }
 
 .column1 {
     height: 300px;
-    width: 33.3%;
+    width: 32%;
     float: left;
+    background-image: url("palmoil.jpg");
+    background-repeat: no-repeat;
 }
 
 .row1 {
-    background-color: indianred;
     height: 200px;
 }
 
 .row2 {
-    background-color: crimson;
     height: 100px;
 }
 
 .column2 {
     height: 300px;
-    width: 33.3%;
+    width: 30%;
     float: left;
 }
 
+.column2 p {
+    font-family: helvetica;
+    text-align: center;
+}
+
 .row3 {
-    background-color: skyblue;
     height: 150px;
     height: 100px;
 }
 
 .row4 {
-    background-color: deepskyblue;
     height: 200px;
 }
 
 .column3 {
     height: 300px;
-    width: 33.3%;
+    width: 37%;
     float: left;
+    background-image: url("hoewoman.jpg");
+    background-repeat: no-repeat;
 }
 
 .row5 {
-    background-color: cadetblue;
     height: 70px;
 }
 
 .row6 {
-    background-color: blue;
     height: 230px;
 }
 
 .footer {
-    background-color: yellow;
+    background-color: #340D16;
     height: 250px;
-    width: 70%;
+    width: 1264px;
     clear: both;
     float: left;
 }
@@ -152,30 +160,20 @@ ul li {
 .footer p {
     color: red;
     text-align: center;
-    =======height: 200px;
+    height: 200px;
     width: 100%;
     clear: both;
     float: right;
 }
 
-.boxfoot {
-    background-color: deeppink;
-    height: 250px;
-    width: 30%;
-    float: right;
-}
 
-.boxfoot form {
-    text-align: center;
 }
-
 .boxfoot h3 {
     text-align: center;
     font-weight: 14px;
     font-family: Castellar;
     color: blue;
 }
-
 #header2 {
     width: 100%;
     background-color: red;
@@ -184,31 +182,26 @@ ul li {
     padding-top: 30px;
     font-family: fantasy;
 }
-
 #content2 {
     width: 100%;
     background-color: yellow;
 }
-
 #up1 {
     width: 35%;
     height: 90%;
     background-color: orange;
     float: left;
 }
-
 #top1 {
     width: 35%;
     height: 50% background-color:black;
 }
-
 #eventpic1 {
     width: 30%;
     height: 40%;
     background-color: blue;
     float: left;
 }
-
 #up2 {
     width: 35%;
     height: 90%;
@@ -216,19 +209,16 @@ ul li {
     float: right;
     margin-right: 50%;
 }
-
 #top2 {
     width: 35%;
     height: 50% background-color:black;
 }
-
 #eventpic2 {
     width: 30%;
     height: 40%;
     background-color: orange;
     float: left;
 }
-
 #lat1 {
     width: 35%;
     height: 90%;
@@ -236,19 +226,16 @@ ul li {
     float: left;
     margin-left: 50%;
 }
-
 #top3 {
     width: 35%;
     height: 50% background-color:black;
 }
-
 #eventpic3 {
     width: 30%;
     height: 40%;
     background-color: orange;
     float: left;
 }
-
 #lat2 {
     width: 35%;
     height: 90%;
@@ -256,19 +243,16 @@ ul li {
     float: right;
     margin-left: 50%;
 }
-
 #top4 {
     width: 35%;
     height: 50% background-color:black;
 }
-
 #eventpic4 {
     width: 30%;
     height: 40%;
     background-color: orange;
     float: left;
 }
-
 #pas1 {
     width: 35%;
     height: 90%;
@@ -276,19 +260,16 @@ ul li {
     float: middle;
     margin-left: 50%;
 }
-
 #top5 {
     width: 35%;
     height: 50% background-color:black;
 }
-
 #eventpic5 {
     width: 30%;
     height: 40%;
     background-color: orange;
     float: left;
 }
-
 
 }
 #footer2 {
@@ -376,3 +357,64 @@ ul li {
     width: 100%;
     background-color: green;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+ul,li{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style-type:none;
+}
+
+
+
+footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; }
+.footer-col { margin-top:50px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footer-col p { color:#fff; font-size:12px; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footer-col p i { width:20px; color:#999;}
+
+.footer-ul { list-style-type:none;  padding-left:0; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
+.social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+ .footer-social li{
+     float:left;
+ }
+ .linked-in{
+     background-color:#007bb6;
+ }
+ .facebook{
+     background-color:#3b5998;
+ }
+ .twitter{
+     background-color:#1da1f2;
+ }
+ .google{
+     background-color:#f63e28;
+ }
