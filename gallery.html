@@ -3,50 +3,95 @@
 
 
 <head>
-    <title>Mafubo:gallery</title>
-    <link rel="stylesheet" type="text/css" href="Meraki.css">
+    <title>Mafubo:Gallery</title>
+
     <meta name="Author" content="Meraki">
-    <meta name="Description" content="Mafubo website: Events">
-    <meta name="keywords" content="Events">
+    <meta name="Description" content="Mafubo website: Gallery">
+    <meta name="keywords" content="Mafubo Gallery">
     <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/merakihome.css">
-    <link rel="stylesheet" type="text/css" href="css/boot.strap.css">
-    <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
 
 </head>
 
 <body>
+    <div class="container">
 
-    <div class="full-container">
-
-
-        <div class="header">
-
-            <a href="index.html"><img src="images/logo.jpg"></a>
-
-            <ul>
-
-                <li id="Contact Us">
-                    <a href="contactUs.html">Contact </a></li>
-
-                <li id="Get Involved"><a href="GetInvolved.html">Get Involved</a></li>
-
-                <li id="Stories"><a href="stories.html">Stories</a></li>
-
-                <li id="Gallery"><a href="gallery.html">Gallery</a></li>
-
-                <li id="Events"><a href="events.html">Events</a></li>
-
-                <li id="About Us"><a href="aboutus.html">About</a></li>
-
-            </ul>
-
-        </div>
-        <!--dont forget that full-container is what we use in bootrap as container so style your stuff in bootstrap as well so your styling will begin from here because the container has already been created so you style inside it with bootstrap-->
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+       </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.jpg"></a>
 
 
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="network.html">Network</a></li>
+                    <li class="active">
+                        <a href="gallery.html">Gallery</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                    <li><a href="GetInvolved.html">Get Involved</a></li>
 
-          <!--<div class="sliders">Gallery
+
+                </ul>
+            </div>
+        </nav>
+
+        <div class="slider">
+            <div id="myCarousel" class="carousel slide">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/women-poverty.jpg" alt="First slide">
+                    </div>
+                    <div class="item">
+                        <img src="images/tomatoesforum.jpg" alt="Second slide">
+                    </div>
+                    <div class="item">
+                        <img src="images/ugandafarm.jpg" alt="Third slide">
+                    </div>
+                    <div class="item">
+                        <img src="images/womancarrying.jpg" alt="Fourth slide">
+                    </div>
+                    <div class="item">
+                        <img src="images/woman-chicken.jpg" alt="Fifth slide">
+                    </div>
+                    <div class="item">
+                        <img src="images/womanonfarm.jpg" alt="Sixth slide">
+                        <div class="item">
+                            <img src="images/making-palm-oil.jpg" alt="Seventh slide">
+                        </div>
+                        <div class="item">
+                            <img src="images/koobiwoman.jpg" alt="Eighth slide">
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!-- Carousel nav -->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            </div>
+
+
+
+            <!--<div class="sliders">Gallery
 
             <img class="mySlides" width="75%" src="images/1.jpg">
 
@@ -79,67 +124,37 @@ function carousel() {
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>-->
-      <br><p><h3 align="center"><b>Certificates</b></h3></p>
-      <img align="center" src="images/cert.jpg" width="10%">
-      <img align="center" src="images/cert1.jpg" width="10%">
-      <br>
-      <br>
-      <!--<p>Linda Adzo Dormekpor the national coordinator of Mafubo Ghana and Edward David Singhatey the vice president of ECOWAS commission.</p>-->
-      <img src="images/pic1.jpg">
-      <img src="images/1.jpg">
-      <img src="images/2.jpg">
-      <img src="images/3.jpg">
-      <img src="images/4.jpg">
-      <img src="images/5.jpg">
-      <img src="images/6.jpg">
-      <img src="images/7.jpg">
-      <img src="images/8.jpg">
-      <img src="images/9.jpg">
-      <img src="images/10.jpg">
-      <img src="images/11.jpg">
-      <img src="images/12.jpg">
-      <img src="images/13.jpg">
-      <img src="images/14.jpg">
-      <img src="images/15.jpg">
-      <img src="images/16.jpg">
-      <img src="images/17.jpg">
+            <br>
+            <p>
+                <h3 align="center"><b>Certificates</b></h3>
+            </p>
+            <img align="center" src="images/cert.jpg" width="8%">
+            <img align="center" src="images/cert1.jpg" width="8%">
+            <br>
+            <br>
+            <!--<p>Linda Adzo Dormekpor the national coordinator of Mafubo Ghana and Edward David Singhatey the vice president of ECOWAS commission.</p>-->
+            <img src="images/pic1.jpg">
+            <img src="images/1.jpg">
+            <img src="images/2.jpg">
+            <img src="images/3.jpg">
+            <img src="images/4.jpg">
+            <img src="images/5.jpg" width="200px" height="200px"><br><br>
+            <img src="images/6.jpg">
+            <img src="images/7.jpg">
+            <img src="images/8.jpg">
+            <img src="images/9.jpg">
+            <img src="images/10.jpg">
+            <img src="images/11.jpg"><br><br>
+            <!--<img src="images/12.jpg">-->
+            <img src="images/13.jpg">
+            <img src="images/14.jpg">
+            <img src="images/15.jpg" width="15%">
+            <img src="images/16.jpg" width="15%">
+            <img src="images/17.jpg"><br><br>
 
-    </div>
-    <div class="sectiong">
+        </div>
 
-        <div class="pic-container">
-
-            <div class="pic-row">
-            <p><h3>Mafubo network all around the world:</h3></p>
-
-                <img src="images/benin.jpg">
-                <img src="images/ghana.jpg">
-                <img src="images/mali.jpg">
-                <img src="images/afriquesud.jpg">
-                <img src="images/Angola.jpg"><br><br>
-                <img src="images/belgique.jpg">
-                <img src="images/brasil.jpg">
-                <img src="images/cameroun.jpg">
-                <img src="images/canada.jpg">
-                <img src="images/cotedevoire.jpg"><br><br>
-                <img src="images/france.jpg">
-                <img src="images/guineacon.jpg">
-                <img src="images/ilemau.jpg">
-                <img src="images/kenya.jpg">
-                <img src="images/malawi.jpg"><br><br>
-                <img src="images/maroc.jpg">
-                <img src="images/mauritanie.jpg">
-                <img src="images/namibia.jpg">
-                <img src="images/ouganda.jpg">
-                <img src="images/rwanda.jpg"><br><br>
-                <img src="images/senegal.jpg">
-                <img src="images/somalia.jpg">
-                <img src="images/sudafrique.jpg">
-                <img src="images/suede.jpg">
-
-                <br>
-                <br>
-                <!--this should be your guide in css when styling
+        <!--this should be your guide in css when styling
       section {
   /* The width of your document, I suppose */
   width:600px;
@@ -151,19 +166,15 @@ function carousel() {
  /* As large as it needs to be */
   width: 1500px;
 }-->
-            </div>
-
-        </div>
 
 
-    </div>
 
 
-    <!--<div class="videos">Videos
+        <!--<div class="videos">Videos
 
             these are videos from some events they have engaged in at least three of them and when styling in the css display them to inline block-->
 
-   <!-- <iframe width="33.3%" height="" src=""></iframe>
+        <!-- <iframe width="33.3%" height="" src=""></iframe>
 
     <iframe width="33.3%" height="" src=""></iframe>
 
