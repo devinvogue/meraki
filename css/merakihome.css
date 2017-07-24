@@ -72,27 +72,81 @@
     width: 100%;
 }
 
-.sectionau {
-    text-align: center;
-}
-
 .pres {
     display: inline-block;
     margin: auto;
 }
 
+.my-padding {
+    padding: 10px;
+}
 
-/*.sectionau1{
+.inner-padding {
+    padding: 4%;
+}
+
+.committee ul li {
+    list-style: circle !important;
+}
+
+#quote-section {
+    background-image: url("../images/womanonfarm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Satisfy', cursive;
+}
+
+#quote {
+    text-align: center;
+    /*    rgba color . last channel is the opacity from 0 to 1*/
+    background-color: rgba(209, 253, 249, 0.4);
+    font-size: 2.4em;
+    color: black;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+.position {
+    text-align: left;
+    color: #666666;
+    font-size: 1.5em;
+    border-bottom: 2px solid #D1FDF9;
+    padding-bottom: 3px;
+    margin-bottom: 10px !important;
+}
+
+#network-h3 {
+    text-align: center;
+    transition-duration: 8s;
+}
+
+.center {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.founder-pic {
+    border-radius: 100%;
+}
+
+.network-pic {
     float: left;
+    padding: 15px;
+    border-radius: 20px;
+    transition: 1.5s;
+    transition: width 2s;
 }
 
-.sectionau2{
-    float: right;
+.network-pic:hover {
+    cursor: pointer;
+    transition: width 2s;
+    border: 2px solid #D43F52;
 }
-
-.sectionau3{
-    float:right;
-}*/
 
 .backgroundimage {
     background-image: url("../images/girlinclass.jpg");
@@ -103,6 +157,10 @@
     text-align: center;
     width: 100%;
     float: left;
+}
+
+body {
+    width: 100%;
 }
 
 .backgroundimage h1 {
@@ -136,22 +194,26 @@
 
 .column1 {
     width: 100%;
-    background-color: #0392F2;
+    background-color: white;
     height: 300px;
     float: left;
 }
 
 #service {
     width: 100%;
-    background-color: red;
+    background-color: #d53f51;
     height: 60px;
     font-size: 30px;
     padding: 13px;
 }
 
+.service-content {
+    text-align: center;
+}
+
 #MISSION {
     width: 100%;
-    background-color: aquamarine;
+    background-color: #d53f51;
     height: 60px;
     font-size: 30px;
     padding: 13px;
@@ -160,7 +222,7 @@
 
 #vision {
     width: 100%;
-    background-color: beige;
+    background-color: #d53f51;
     height: 60px;
     font-size: 30px;
     padding: 13px;
@@ -182,14 +244,6 @@
 h5 {
     text-align: center;
 }
-
-/*
-.column-2 p {
-    font-family: helvetica;
-    text-align: center;
-    padding: 10px;
-}
-*/
 .column3 {
     width: 100%;
     background-color: #d6d6d6;
@@ -202,11 +256,15 @@ h5 {
 .backgroundimage h1 {
     padding: 15px;
 }
+.halfwidth {
+    width: 50%;
+    float: left;
+}
 .footer {
     background-color: #D43F52;
     width: 100%;
     float: left;
-    padding: 30px 0px;
+    padding: 40px 0px;
 }
 .footerad {
     /*background-image: url("../images/worldwide.jpg");*/
@@ -457,6 +515,9 @@ footer {
 .footer-col {
     margin-top:50px;
 }
+.foot-ul {
+    color: white;
+}
 .logofooter {
     margin-bottom:10px;
     font-size:25px;
@@ -553,9 +614,6 @@ footer {
 }
 .footer-social li {
     float:left;
-}
-.linked-in {
-    background-color:#007bb6;
 }
 .facebook {
     background-color:#3b5998;
