@@ -1,10 +1,6 @@
 @import url("bootstrap.min.css");
 
-/*.container {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;*
-}*/
+
 
 .navbar-brand>img {
     width: 230px;
@@ -90,7 +86,7 @@
 }
 
 #quote-section {
-    background-image: url("../images/womanonfarm.jpg");
+    background-image: url("../images/ugandafarm.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -171,6 +167,7 @@ body {
 .row {
     width: 100%;
 }
+
 
 .headerimages .col-md-4 {
     padding: 0px;
@@ -266,12 +263,7 @@ h5 {
     float: left;
     padding: 40px 0px;
 }
-.footerad {
-    /*background-image: url("../images/worldwide.jpg");*/
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 h3 {
     text-align: center;
     font-size: 50px;
@@ -293,18 +285,31 @@ h3 {
     padding: 30px;
     margin-right: 20px;
 }
-.summ h3 {
+/*.summ h3 {
     text-align: center;
+}
+
+.summ p{
+    text-align: center;*/
 }
 .volunteerbox {
     word-spacing: 2px;
+    text-align: justify;
+}
+
+.volunteerbox form{
+    text-align: justify;
+}
+
+
+.volunteerbox h5{
     text-align: center;
 }
 .volunteerbox h3 {
-    text-align: center;
+    text-align: justify;
 }
 .newsletters {
-    float: right;
+    float: left;
 }
 .headerau h3 {
     text-align: center;
@@ -313,7 +318,8 @@ h3 {
     text-align: center;
 }
 .proj {
-    text-align: center;
+    text-align: justify;
+    margin: 0px;
 }
 .comm {
     text-align: center;
@@ -329,81 +335,6 @@ h3 {
 }
 #content2 {
     width: 100%;
-}
-#up1 {
-    width: 35%;
-    height: 90%;
-    float: left;
-}
-#top1 {
-    width: 35%;
-    height: 50%;
-}
-#eventpic1 {
-    width: 30%;
-    height: 40%;
-    float: left;
-}
-#up2 {
-    width: 35%;
-    height: 90%;
-    float: right;
-    margin-right: 50%;
-}
-#top2 {
-    width: 35%;
-    height: 50%;
-}
-#eventpic2 {
-    width: 30%;
-    height: 40%;
-    float: left;
-}
-#lat1 {
-    width: 35%;
-    height: 90%;
-    float: left;
-    margin-left: 50%;
-}
-#top3 {
-    width: 35%;
-    height: 50%;
-}
-#eventpic3 {
-    width: 30%;
-    height: 40%;
-    float: left;
-}
-#lat2 {
-    width: 35%;
-    height: 90%;
-    float: right;
-    margin-left: 50%;
-}
-#top4 {
-    width: 35%;
-    height: 50%;
-}
-#eventpic4 {
-    width: 30%;
-    height: 40%;
-    float: left;
-}
-#pas1 {
-    width: 35%;
-    height: 90%;
-    float: middle;
-    margin-left: 50%;
-}
-#top5 {
-    width: 35%;
-    height: 50%;
-}
-#eventpic5 {
-    width: 30%;
-    height: 40%;
-    float: left;
-}
 
 }
 #header5 {
@@ -412,70 +343,50 @@ h3 {
 #content5 {
     width: 100%;
 }
-#content6 {
-    width: 100%;
-    display: inline;
+
+section h4{
     text-align: center;
+}
+
+#contact {
+    width: 100%;
+    font-weight: 14px;
+    display: inline;
+    text-align: justify;
+    float: left;
     word-spacing: 2px;
 }
+/*
+.col-md-6{
+    margin: 0px;
+    padding: 100px;
+    height: 550px;
+}*/
+
+.form h2{ 
+    color: #0392F2;
+    text-align: center;
+    text-shadow: 2px 2px;
+}
+
+.col-md-12 h3{
+    color: #D43F52;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+}
+
 #content6 h3 {
     text-align: center;
     font-weight: 12px;
+    
 }
+
+
 .part {
-    display: inline-grid;
-    text-align: center;
-}
-.part p {
-    text-align: left;
-}
-.part h3 {
-    text-align: center;
-    font-weight: 12px;
-}
-#stor1 {
-    width: 50%;
-    height: 50%;
-    background-color: blue;
-    float: left;
-}
-#pic1 {
-    width: 25%;
-    height: 25%;
-    margin-top: 0px;
-}
-#stor2 {
-    width: 50%;
-    height: 50%;
-    background-color: orange;
-    float: right;
+    
+    text-align: justify;
+    word-spacing: 4px;
 }
 
-}
-#pic2 {
-    width: 25%;
-    height: 25%;
-    margin-top: 0px;
-}
-#stor3 {
-    width: 50%;
-    height: 50%;
-    background-color: red;
-    float: left;
-}
-
-}
-#pic3 {
-    width: 25%;
-    height: 25%;
-    margin-top: 0px;
-}
-#stor4 {
-    width: 50%;
-    height: 50%;
-    background-color: green;
-    float: right;
-}
 
 }
 #pic4 {
@@ -484,20 +395,8 @@ h3 {
     margin-top: 0px;
     box-shadow: 1px 1px 2px #9E9E9E;
 }
-.form {
-    display: inline-block;
-    text-align: center;
-    margin: 0px;
-    vertical-align: middle;
-}
 
-}
-#sitemap p {
-    text-align: center;
-}
 
-/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);*/
 ul,
 li {
     padding:0;
