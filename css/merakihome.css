@@ -313,8 +313,11 @@ h3 {
 section h4 {
     text-align: center;
 }
+<<<<<<< HEAD
 
 }
+=======
+>>>>>>> 08bc46a3fba01cd2414321df7f9e32a880992dc9
 #contact {
     width: 100%;
     font-weight: 14px;
@@ -328,9 +331,12 @@ section h4 {
 .form h2 {
     color: #0392F2;
     text-align: center;
+<<<<<<< HEAD
 }
 
 }
+=======
+>>>>>>> 08bc46a3fba01cd2414321df7f9e32a880992dc9
 .col-md-12 h3 {
     color: #D43F52;
 }
