@@ -90,6 +90,14 @@
     font-family: 'Satisfy', cursive;
 }
 
+#quote-sectiondonate {
+    background-image: url("../images/donate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Satisfy', cursive;
+}
+
 #quote {
     text-align: center;
     /*    rgba color . last channel is the opacity from 0 to 1*/
@@ -313,11 +321,8 @@ h3 {
 section h4 {
     text-align: center;
 }
-<<<<<<< HEAD
 
 }
-=======
->>>>>>> 08bc46a3fba01cd2414321df7f9e32a880992dc9
 #contact {
     width: 100%;
     font-weight: 14px;
@@ -331,12 +336,9 @@ section h4 {
 .form h2 {
     color: #0392F2;
     text-align: center;
-<<<<<<< HEAD
 }
 
 }
-=======
->>>>>>> 08bc46a3fba01cd2414321df7f9e32a880992dc9
 .col-md-12 h3 {
     color: #D43F52;
 }
