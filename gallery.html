@@ -62,7 +62,7 @@
             </div>
         </nav>
         <div class="col-md-12">
-            <h3 style="font-weight:200; font-size:60px; color: #d34053" ;="" class="animated bounceInLeft" id="network-h3">Gallery</h3>
+            <h2 style="font-weight:100; font-size:50px; color: #d34053" ;="" class="animated bounceInLeft" id="network-h3">Gallery</h2>
         </div>
 
         <div class="section-carousel">
@@ -107,10 +107,13 @@
 
     <br>
 
-    <h3 align="center"><b>Certificates</b></h3>
 
-    <img align="center" src="images/cert.jpg" width="8%">
-    <img align="center" src="images/cert1.jpg" width="8%">
+
+
+
+
+    <img align="" src="images/cert.jpg" width="8%">
+    <img align="" src="images/cert1.jpg" width="8%">
     <br>
     <br>
 
@@ -120,14 +123,14 @@
     <!--<img src="images/2.jpg">-->
     <img src="images/3.jpg">
     <img src="images/4.jpg">
-    <img src="images/5.jpg" width="200px" height="200px"><br><br>
+    <img src="images/5.jpg" width="200px" height="200px">
     <img src="images/6.jpg">
     <img src="images/7.jpg">
     <img src="images/8.jpg">
     <img src="images/9.jpg">
     <img src="images/10.jpg">
 
-    <img src="images/11.jpg"><br><br>
+    <img src="images/11.jpg">
     <!--<img src="images/12.jpg">-->
     <img src="images/13.jpg">
     <img src="images/14.jpg">
@@ -135,7 +138,8 @@
     <img src="images/15.jpg" width="15%">
     <img src="images/16.jpg" width="15%">
 
-    <img src="images/17.jpg"><br><br>
+    <img src="images/17.jpg">
+
 
 
 
@@ -209,10 +213,45 @@
 
 
 
+
 </body>
 
 
-<script src="js/jquery-1.11.3.min.js "></script>
-<script src="js/bootstrap.min.js "></script>
+
+
+
 
 </html>
+<script src="js/jquery-1.11.3.min.js "></script>
+<script src="js/bootstrap.min.js "></script>
+<script src="js/jquery.tinycarousel.min.js"></script>
+<script>
+    $('.carousel').carousel()
+
+</script>
+<script>
+    $(document).ready(function() {
+        $('.carousel .carousel-caption').css('zoom', $('.carousel').width() / 1250);
+    });
+    $(window).resize(function() {
+        $('.carousel .carousel-caption').css('zoom', $('.carousel').width() / 1250);
+    });
+
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#slider1').tinycarousel({
+            start: 1,
+            display: 1,
+            axis: 'x',
+            controls: true,
+            pager: false,
+            interval: true,
+            intervaltime: 3000,
+            animation: true,
+            duration: 1000,
+            callback: null,
+        });
+    });
+
+</script>
