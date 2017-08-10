@@ -1,20 +1,46 @@
 @import url("bootstrap.min.css");
+
 .navbar-brand>img {
-    width: 230px;
+    /*width: 230px;*/   /*commented this out*/
 }
 
 .navbar {
-    height: 150px;
+    /*height: 150px;*/ /*commented this out*/
+    margin-bottom: 0;  /*took the default value out*/
+}
+
+/*Added this for the responsive menu toggle*/
+.navbar-default .navbar-toggle{
+    width:100%;
+    margin:20px 0;
+    border:0;
+    border-radius: 0;
+    background-color: #cf3245;
+    margin-bottom: 0;
+    color:#FFFFFF;
 }
 
 .navbar-default {
     background-color: #fff;
     border-radius: 0px;
+    border:0; /*added this*/
     border-color: transparent;
 }
 
+.navbar-default .navbar-nav>.active>a{
+    background-color: transparent;
+    border:2px solid #ffc3cb;  /*changed the default active color & style*/
+}
+
 .navbar-nav {
-    padding: 50px 0px;
+    padding: 40px 0px;
+    text-align: center; /*centered the nav links*/
+    float: none;
+}
+
+/*Increased the font weight of the nav links*/
+.navbar-default .navbar-nav>li>a{
+    font-weight: 700;
 }
 
 .box1 {
