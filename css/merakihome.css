@@ -1,19 +1,28 @@
 @import url("bootstrap.min.css");
-.navbar-brand>img {
-    /*width: 230px;*/
-    /*commented this out*/
+
+/*.navbar-brand>img {*/
+
+
+/*width: 230px;*/
+
+
+/*commented this out*/
+
+
 }
 
-.navbar {
+/*.navbar {
     /*height: 150px;*/
-    /*commented this out*/
-    margin-bottom: 0;
-    /*took the default value out*/
-}
 
+/*commented this out*/
+
+/* margin-bottom: 0;*/
+
+/*took the default value out*/
+
+}
 
 /*Added this for the responsive menu toggle*/
-
 .navbar-default .navbar-toggle {
     width: 100%;
     margin: 20px 0;
@@ -22,8 +31,26 @@
     background-color: #cf3245;
     margin-bottom: 0;
     color: #FFFFFF;
+    =======/*width: 230px;*/
+    /*commented this out*/
+}
+.navbar {
+    /*height: 150px;*/
+    /*commented this out*/
+    margin-bottom: 0;
+    /*took the default value out*/
 }
 
+/*Added this for the responsive menu toggle*/
+.navbar-default .navbar-toggle {
+    width:100%;
+    margin:20px 0;
+    border:0;
+    border-radius: 0;
+    background-color: #cf3245;
+    margin-bottom: 0;
+    color:#FFFFFF;
+}
 .navbar-default {
     background-color: #fff;
     border-radius: 0px;
@@ -31,13 +58,19 @@
     /*added this*/
     border-color: transparent;
 }
-
 .navbar-default .navbar-nav>.active>a {
     background-color: transparent;
     border: 2px solid #ffc3cb;
     /*changed the default active color & style*/
+    border:0;
+    /*added this*/
+    border-color: transparent;
 }
-
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent;
+    border:2px solid #ffc3cb;
+    /*changed the default active color & style*/
+}
 .navbar-nav {
     padding: 40px 0px;
     text-align: center;
@@ -45,13 +78,17 @@
     float: none;
 }
 
+/*Increased the font weight of the nav links*/
+.navbar-default .navbar-nav>li>a {
+    text-align: center;
+    /*centered the nav links*/
+    float: none;
+}
 
 /*Increased the font weight of the nav links*/
-
 .navbar-default .navbar-nav>li>a {
     font-weight: 700;
 }
-
 .box1 {
     height: 500px;
     background-size: cover;
@@ -62,7 +99,6 @@
     background-image: url("../images/ss1.jpg");
     transition: .4s;
 }
-
 .box2 {
     height: 500px;
     background-image: url("../images/ss22.jpg");
@@ -71,7 +107,6 @@
     width: 100%;
     transition: .4s;
 }
-
 .box3 {
     padding: 0px;
     margin: 0px;
@@ -82,41 +117,32 @@
     background-size: cover;
     transition: .4s;
 }
-
 .box1:hover {
     opacity: 0.5;
 }
-
 .box2:hover {
     opacity: 0.5;
 }
-
 .box3:hover {
     opacity: 0.5;
 }
-
 .section {
     height: 800px;
     width: 100%;
 }
-
 .pres {
     display: inline-block;
     margin: auto;
 }
-
 .my-padding {
     padding: -3px;
 }
-
 .inner-padding {
     padding: 4%;
 }
-
 .committee ul li {
     list-style: circle !important;
 }
-
 #slider1 {
     height: auto;
     margin: 30px 0 0;
@@ -124,28 +150,23 @@
     position: relative;
     padding: 0 50px 10px;
 }
-
 #slider1.viewport {
     height: 325;
     overflow: hidden;
     position: relative;
 }
-
 #slider1.next {
     right: 0;
     left: auto;
     top: 50%
 }
-
 #slider1 .buttons:hover {
     color: #C01313;
     background: #fff;
 }
-
 #slider1 .disable {
     visibility: hidden;
 }
-
 #slider1 .overview {
     list-style: none;
     position: absolute;
@@ -155,7 +176,6 @@
     left: 0;
     top: 0;
 }
-
 #slider1.overview li {
     float: left;
     margin: 0 20px;
@@ -163,33 +183,34 @@
     height: 121px;
     width: 236px;
 }
-
 #quote-section {
     background-image: url("../images/ugandafarm.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy',
+    cursive;
 }
-
 #quote-sectiondonate {
     background-image: url("../images/donate.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy',
+    cursive;
 }
-
 #quote {
     text-align: center;
     /*    rgba color . last channel is the opacity from 0 to 1*/
-    background-color: rgba(209, 253, 249, 0.4);
+    background-color: rgba(209,
+    253,
+    249,
+    0.4);
     font-size: 2.4em;
     color: black;
     padding: 18px;
     border-radius: 8px;
 }
-
 .position {
     text-align: left;
     color: #666666;
@@ -198,25 +219,20 @@
     padding-bottom: 3px;
     margin-bottom: 10px !important;
 }
-
 #network-h3 {
     text-align: center;
     transition-duration: 8s;
 }
-
 .center {
     width: 80%;
     margin: 0 auto;
 }
-
 .margin-top {
     margin-top: 10px;
 }
-
 .founder-pic {
     border-radius: 100%;
 }
-
 .network-pic {
     float: left;
     padding: 15px;
@@ -224,13 +240,11 @@
     transition: 1.5s;
     transition: width 2s;
 }
-
 .network-pic:hover {
     cursor: pointer;
     transition: 0.2s;
     opacity: 0.5;
 }
-
 .backgroundimage {
     background-image: url("../images/girlinclass.jpg");
     background-repeat: no-repeat;
@@ -241,24 +255,19 @@
     width: 100%;
     float: left;
 }
-
 body {
     width: 100%;
 }
-
 .backgroundimage h1 {
     font-family: helvetica;
     color: aliceblue;
 }
-
 .row {
     width: 100%;
 }
-
 html {
     background-color: transparent;
 }
-
 .headerimages .col-md-4 {
     padding: 0px;
     margin: 0px;
@@ -266,26 +275,22 @@ html {
     padding-bottom: 30px;
     height: 500px;
 }
-
 .midimages .col-md-4 {
     padding-top: 50px;
     float: left;
 }
-
 .midimages {
     float: left;
     padding-right: 60px;
     padding-left: 60px;
     padding-bottom: 50px;
 }
-
 .column1 {
     width: 100%;
     background-color: white;
     height: 300px;
     float: left;
 }
-
 #service {
     width: 100%;
     background-color: #d53f51;
@@ -293,11 +298,9 @@ html {
     font-size: 30px;
     padding: 13px;
 }
-
 .service-content {
     text-align: center;
 }
-
 #MISSION {
     width: 100%;
     background-color: #d53f51;
@@ -306,7 +309,6 @@ html {
     padding: 13px;
     margin: 0px;
 }
-
 #vision {
     width: 100%;
     background-color: #d53f51;
@@ -315,11 +317,9 @@ html {
     padding: 13px;
     margin: 0px;
 }
-
 .column1 p {
     text-align: center;
 }
-
 
 }
 .column-2 {
