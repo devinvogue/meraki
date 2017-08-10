@@ -1,45 +1,54 @@
 @import url("bootstrap.min.css");
-
 .navbar-brand>img {
-    /*width: 230px;*/   /*commented this out*/
+    /*width: 230px;*/
+    /*commented this out*/
 }
 
 .navbar {
-    /*height: 150px;*/ /*commented this out*/
-    margin-bottom: 0;  /*took the default value out*/
+    /*height: 150px;*/
+    /*commented this out*/
+    margin-bottom: 0;
+    /*took the default value out*/
 }
 
+
 /*Added this for the responsive menu toggle*/
-.navbar-default .navbar-toggle{
-    width:100%;
-    margin:20px 0;
-    border:0;
+
+.navbar-default .navbar-toggle {
+    width: 100%;
+    margin: 20px 0;
+    border: 0;
     border-radius: 0;
     background-color: #cf3245;
     margin-bottom: 0;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
 .navbar-default {
     background-color: #fff;
     border-radius: 0px;
-    border:0; /*added this*/
+    border: 0;
+    /*added this*/
     border-color: transparent;
 }
 
-.navbar-default .navbar-nav>.active>a{
+.navbar-default .navbar-nav>.active>a {
     background-color: transparent;
-    border:2px solid #ffc3cb;  /*changed the default active color & style*/
+    border: 2px solid #ffc3cb;
+    /*changed the default active color & style*/
 }
 
 .navbar-nav {
     padding: 40px 0px;
-    text-align: center; /*centered the nav links*/
+    text-align: center;
+    /*centered the nav links*/
     float: none;
 }
 
+
 /*Increased the font weight of the nav links*/
-.navbar-default .navbar-nav>li>a{
+
+.navbar-default .navbar-nav>li>a {
     font-weight: 700;
 }
 
