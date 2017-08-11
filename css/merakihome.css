@@ -130,6 +130,9 @@
     height: 800px;
     width: 100%;
 }
+.height {
+    height:120px;
+}
 .pres {
     display: inline-block;
     margin: auto;
