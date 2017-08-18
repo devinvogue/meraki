@@ -286,13 +286,13 @@ html {
 .headerimages .col-md-4 {
     padding: 0px;
     margin: 0px;
-    background-color: lightgrey;
     padding-bottom: 30px;
     height: 500px;
 }
 .midimages .col-md-4 {
     padding-top: 50px;
     float: left;
+
 }
 .midimages {
     float: left;
@@ -350,7 +350,7 @@ h5 {
     width: 100%;
     background-color: #d6d6d6;
     height: 300px;
-    float: left;
+    float: right;
     background-image: url("../images/femmes-ciblees-en.jpg");
     background-repeat: no-repeat;
     padding-left: 50px;
@@ -371,10 +371,18 @@ h3 {
     padding-left: 60px;
 }
 
+.myForm{
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.center{margin:0px auto;}
+
 .volunteerbox {
     word-spacing: 2px;
-    text-align: justify;
+    text-align: center;
+    /*float: right;*/
 }
 .volunteerbox form {
     text-align: justify;
