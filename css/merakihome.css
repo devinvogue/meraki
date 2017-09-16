@@ -290,6 +290,9 @@ html {
     padding-bottom: 30px;
     height: 500px;
 }
+.headerimages {
+    background-position: center center;
+}
 .midimages .col-md-4 {
     padding-top: 50px;
     float: left;
@@ -348,12 +351,13 @@ h5 {
 }
 .column3 {
     width: 100%;
-    background-color: #d6d6d6;
+    /*background-color: #d6d6d6;*/
     height: 300px;
-    float: left;
-    background-image: url("../images/femmes-ciblees-en.jpg");
+    /*float: left;*/
+    /*background-image: url("../images/members.jpg");*/
     background-repeat: no-repeat;
-    padding-left: 50px;
+    /*padding-left: 50px;
+    padding-right: 50px;*/
 }
 .backgroundimage h1 {
     padding: 15px;
